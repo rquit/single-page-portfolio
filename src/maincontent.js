@@ -20,6 +20,14 @@ function TypeEff() {
     )
 }
 
+function Projects() {
+    return (
+        <div className="projects" id="projects">
+
+        </div>
+    )
+}
+
 /*
     Not my code!
     Yoinked From: https://css-tricks.com/snippets/css/typewriter-effect/

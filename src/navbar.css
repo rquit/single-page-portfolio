@@ -1,30 +1,41 @@
-a {
-    text-decoration: none;
-    color: rgb(135, 135, 180);
-}
-
 ul {
     list-style: none;
     padding: 0;
 }
 
 #header {
+    text-align: start;
+    padding-left: 2rem;
     padding-top: 1.5rem;
+    padding-bottom: 0;
     font-size: 32px;
+    color: white;
+}
+
+.header-a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 3rem;
 }
 
 .side-nav {
     display: flex;
+    position: absolute;
     flex-direction: column;
-    text-align: center;
-    padding: 0;
+    text-align: left;
 
     color: white;
 
     height: 100vh;
     width: 12vw;
 
-    line-height: 5rem;
+    line-height: 3rem;
 }
 
 .nav-li:hover {

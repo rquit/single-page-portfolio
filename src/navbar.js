@@ -9,8 +9,7 @@ export default function SideNavbar() {
                 <li className="nav-li"><a className="nav-a" href="#about">About</a></li>
                 <li className="nav-li"><a className="nav-a" href="#projects">Projects</a></li>
                 <li className="nav-li"><a className="nav-a" href="#resume">Contact</a></li>
-                <li className="nav-li"><a className="nav-a" href="#resume">GitHub</a></li>
-                <li className="nav-li"><a className="nav-a" href="#github">Resume</a></li>
+                <li className="nav-li"><a className="nav-a" href="https://github.com/rquit" target="_blank">Github</a></li>
             </ul>
         </nav>
     )

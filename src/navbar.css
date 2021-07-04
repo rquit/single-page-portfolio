@@ -1,0 +1,32 @@
+a {
+    text-decoration: none;
+    color: rgb(135, 135, 180);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#header {
+    padding-top: 1.5rem;
+    font-size: 32px;
+}
+
+.side-nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+
+    color: white;
+
+    height: 100vh;
+    width: 12vw;
+
+    line-height: 5rem;
+}
+
+.nav-li:hover {
+    background-color: rgb(68, 68, 90);
+}

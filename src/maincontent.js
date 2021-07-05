@@ -15,10 +15,14 @@ function TypeEff() {
         <div className="init-body">
             <h1>
                 <a style={{fontSize: "2rem"}} href="#top" className="typewrite" data-period="2000" 
-                   data-type='[ "Hello!", "I am Nabil.", "I&apos;m a student at CUNY CCNY.", "By the way, this page is best viewed on desktop.",
-                                "Wow, you&apos;re still reading?", "You&apos;ve been here a while.", "How long do you think this goes on for?",
-                                "It&apos;s probably around this long.", "Maybe this long!", "Alright, that&apos;s it, I can&apos;t come up with anything else.",
-                                "Goodbye." ]'>
+                   data-type='[ "Hello!", "I am Nabil.", "I&apos;m a student at CUNY CCNY.",
+                                "Nothing else to say, here&apos;s some fun facts!",
+                                "Originally, oranges were a tangerine-pomelo hybrid, and were green.",
+                                "A cow-bison hybrid is called a &apos;beefalo&apos;.",
+                                "Armadillo shells are bulletproof.",
+                                "Firefighters use wetting agents to make water wetter.",
+                                "Dogs sniff good smells with their left nostril.",
+                                "That&apos;s all I got." ]'>
                     <span className="wrap"></span>
                 </a>
             </h1>

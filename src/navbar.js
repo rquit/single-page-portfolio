@@ -8,7 +8,7 @@ export default function SideNavbar() {
             <ul className="nav-ul">
                 <li className="nav-li"><a className="nav-a" href="#about">About</a></li>
                 <li className="nav-li"><a className="nav-a" href="#projects">Projects</a></li>
-                <li className="nav-li"><a className="nav-a" href="#resume">Contact</a></li>
+                <li className="nav-li"><a className="nav-a" href="https://www.linkedin.com/in/nabil-omi/" target="_blank" rel="noreferrer">LinkedIn</a></li>
                 <li className="nav-li"><a className="nav-a" href="https://github.com/rquit" target="_blank" rel="noreferrer">Github</a></li>
             </ul>
         </nav>

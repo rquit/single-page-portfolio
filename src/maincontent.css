@@ -10,9 +10,25 @@ a {
     transform: translate(-50%, -50%);
 }
 
+.about {
+    position: absolute;
+    top: 100vh;
+    bottom: -100vh;
+    right: 0px;
+    left: 0px;
+    background-color: #4052F5;
+}
+
+#about-header {
+    text-decoration: underline;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
 .projects {
     position: absolute;
-    top: 200vh;
+    top: 100vh;
     right: 0px;
     left: 0px;
     background-color: rgb(79, 153, 248);

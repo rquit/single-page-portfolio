@@ -14,8 +14,8 @@ function TypeEff() {
     return (
         <div className="init-body">
             <h1>
-                <a style={{fontSize: "40px"}} href="#top" className="typewrite" data-period="2000" 
-                   data-type='[ "Hello!", "I am Nabil.", "I&apos;m a student at CUNY CCNY." ]'>
+                <a style={{fontSize: "2rem"}} href="#top" className="typewrite" data-period="2000" 
+                   data-type='[ "Hello!", "I am Nabil.", "I&apos;m a student at CUNY CCNY.", "By the way, this page is best viewed on desktop." ]'>
                     <span className="wrap"></span>
                 </a>
             </h1>
@@ -26,7 +26,57 @@ function TypeEff() {
 function Projects() {
     return (
         <div className="projects" id="projects">
-            <h1>Projects</h1>
+            <h1 id="project-header">Projects</h1>
+            <p id="proj-header-desc">Click on any title to see the GitHub repo!</p>
+
+            <div className="project-li">
+
+                <div className="project-item">
+                    <h2 className="project-title">
+                        <a href="https://github.com/rquit/colab_nn_tests" target="_blank" rel="noreferrer">Neural Network Experiments</a>
+                    </h2>
+                    <p className="project-desc">Studying Neural Networks such as CNN, RNN, LSTM. Click the title to see the notebooks!</p>
+                    <img className="project-img" src="https://cdn.discordapp.com/attachments/803041781801025566/861433844992049172/unknown.png" alt="Image of convnet page" />
+                </div>
+
+                <div className="project-item">
+                    <h2 className="project-title">
+                        <a href="https://github.com/rquit/Chat-Bot-Integrations/tree/main/Slack/NodeJS" target="_blank" rel="noreferrer">Slack Scheduling Bot</a>
+                    </h2>
+                    <p className="project-desc">Uses the Spurwing API to create appointments through Slack chat.</p>
+                    <img className="project-img" src="https://raw.githubusercontent.com/rquit/Chat-Bot-Integrations/main/Slack/NodeJS/slackbot.gif" alt="GIF of the bot in action." />
+                </div>
+
+                <div className="project-item">
+                    <h2 className="project-title">
+                        <a href="https://github.com/rquit/Mable" target="_blank" rel="noreferrer">Multi-Purpose Discord Bot</a>
+                    </h2>
+                    <p className="project-desc">Features can be seen in GitHub Repository. No longer being used.</p>
+                    <img className="project-img" src="https://cdn.discordapp.com/attachments/803041781801025566/836734086705578014/unknown.png" alt="Screenshot of the bot in use." />
+                </div>
+
+                <div className="project-item">
+                    <h2 className="project-title">
+                        <a href="https://github.com/rquit/HackUIowa" target="_blank" rel="noreferrer">UIowa Hackathon Submission</a>
+                    </h2>
+                    <p className="project-desc">Learned React in less than 24 hours for this submission. Hosted can be seen 
+                                                <a href="https://goals.nabilto.com/" target="_blank" rel="noreferrer"> <u>here.</u> </a>
+                                                Features routing, authentication, and a simple noSQL database thanks to Google Firebase. Made solo.</p>
+                    <img className="project-img" src="https://cdn.discordapp.com/attachments/803041781801025566/861437450236723200/unknown.png" alt="Screen shot of the main page." />
+                </div>
+
+                <div className="project-item">
+                    <h2 className="project-title">
+                        <a href="https://github.com/rquit/single-page-portfolio" target="_blank" rel="noreferrer">Source Code to This Site</a>
+                    </h2>
+                    <p className="project-desc">Just in case you wanted to see it.</p>
+                    <img className="project-img" src="https://cdn.discordapp.com/emojis/778880071950794783.gif?v=1" 
+                         alt="This is an easter egg. If you are using a screen reader, what's up?"
+                         style={{maxWidth: "40vh"}} />
+                </div>
+
+            </div>
+
         </div>
     )
 }

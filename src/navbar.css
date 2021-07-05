@@ -4,6 +4,7 @@ ul {
 }
 
 #header {
+    text-decoration: underline;
     text-align: start;
     padding-bottom: 0;
     font-size: 32px;
@@ -41,4 +42,6 @@ ul {
 
 .nav-li:hover {
     background-color: rgba(68, 68, 90, 255);
+    border-radius: 1rem;
+    transition: 0.3s;
 }

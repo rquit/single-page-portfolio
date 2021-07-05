@@ -14,9 +14,8 @@ a {
     position: absolute;
     top: 100vh;
     right: 0px;
-    bottom: -100vh;
     left: 0px;
-    background-color: rgba(79, 153, 248, 255);
+    background-color: rgb(79, 153, 248);
 }
 
 .scroll-top {
@@ -28,4 +27,73 @@ a {
     border-radius: 50%;
     border: 1px groove rgb(61, 61, 61);
     background-color: rgba(45, 45, 60, 255);
+}
+
+#project-header {
+    text-decoration: underline;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+#proj-header-desc {
+    margin-left: 2rem;
+}
+
+.project-li {
+    display: grid;
+    margin-left: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.project-title {
+    margin: 0;
+}
+
+.project-img {
+    border-radius: 2rem;
+    border: 3px dotted #4052F5;
+    max-width: 40vw;
+}
+
+@media (max-width: 1050px) {
+    .project-li {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .project-item {
+        inherits: none;
+        padding: 0.5rem;
+        max-width: 85vw;
+    }
+
+    .project-img {
+        border-radius: 2rem;
+        border: 3px dotted #4052F5;
+        max-width: 80vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .project-li {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .project-item {
+        inherits: none;
+        padding: 0rem;
+        max-width: 85vw;
+    }
+
+    .project-img {
+        max-width: 85vw;
+    }
 }

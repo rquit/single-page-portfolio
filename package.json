@@ -1,6 +1,6 @@
 {
   "name": "clean-portfolio",
-  "homepage": "http://rquit.github.io/single-page-portfolio",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

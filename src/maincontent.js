@@ -2,8 +2,10 @@ import './maincontent.css';
 
 export default function Content() {
     return (
-        <div className="content">
+        <div className="content" id="top">
+            <ScrollToTop />
             <TypeEff />
+            <Projects />
         </div>
     )
 }
@@ -12,7 +14,8 @@ function TypeEff() {
     return (
         <div className="init-body">
             <h1>
-                <a href="" className="typewrite" data-period="2000" data-type='[ "Hello!", "I am Nabil.", "I&apos;m a student at CUNY CCNY." ]'>
+                <a style={{fontSize: "40px"}} href="#top" className="typewrite" data-period="2000" 
+                   data-type='[ "Hello!", "I am Nabil.", "I&apos;m a student at CUNY CCNY." ]'>
                     <span className="wrap"></span>
                 </a>
             </h1>
@@ -23,7 +26,15 @@ function TypeEff() {
 function Projects() {
     return (
         <div className="projects" id="projects">
+            <h1>Projects</h1>
+        </div>
+    )
+}
 
+function ScrollToTop() {
+    return (
+        <div className="scroll-top">
+            <a href="#top">↑↑↑</a>
         </div>
     )
 }

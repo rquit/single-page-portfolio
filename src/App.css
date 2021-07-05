@@ -2,8 +2,10 @@
 
 :root {
   background-color: rgba(45, 45, 60, 255);
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+  color: white;
 }
 
 .App {

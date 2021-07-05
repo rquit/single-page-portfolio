@@ -5,11 +5,10 @@ ul {
 
 #header {
     text-align: start;
-    padding-left: 2rem;
-    padding-top: 1.5rem;
     padding-bottom: 0;
     font-size: 32px;
     color: white;
+    padding: 1rem;
 }
 
 .header-a {
@@ -21,23 +20,25 @@ ul {
     text-decoration: none;
     color: white;
     font-size: 20px;
-    padding-left: 3rem;
+    margin: 3rem;
 }
 
 .side-nav {
     display: flex;
-    position: absolute;
+    position: fixed;
     flex-direction: column;
+
     text-align: left;
+    margin: 1rem;
+    align-items: center;
 
     color: white;
 
     height: 100vh;
-    width: 12vw;
 
     line-height: 3rem;
 }
 
 .nav-li:hover {
-    border: solid 1px gray;
+    background-color: rgba(68, 68, 90, 255);
 }

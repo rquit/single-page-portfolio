@@ -80,6 +80,7 @@ a {
         border: 3px dotted #4052F5;
         max-width: 80vw;
     }
+
 }
 
 @media (max-width: 600px) {

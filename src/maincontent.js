@@ -15,7 +15,10 @@ function TypeEff() {
         <div className="init-body">
             <h1>
                 <a style={{fontSize: "2rem"}} href="#top" className="typewrite" data-period="2000" 
-                   data-type='[ "Hello!", "I am Nabil.", "I&apos;m a student at CUNY CCNY.", "By the way, this page is best viewed on desktop." ]'>
+                   data-type='[ "Hello!", "I am Nabil.", "I&apos;m a student at CUNY CCNY.", "By the way, this page is best viewed on desktop.",
+                                "Wow, you&apos;re still reading?", "You&apos;ve been here a while.", "How long do you think this goes on for?",
+                                "It&apos;s probably around this long.", "Maybe this long!", "Alright, that&apos;s it, I can&apos;t come up with anything else.",
+                                "Goodbye." ]'>
                     <span className="wrap"></span>
                 </a>
             </h1>
@@ -36,7 +39,7 @@ function Projects() {
                         <a href="https://github.com/rquit/colab_nn_tests" target="_blank" rel="noreferrer">Neural Network Experiments</a>
                     </h2>
                     <p className="project-desc">Studying Neural Networks such as CNN, RNN, LSTM. Click the title to see the notebooks!</p>
-                    <img className="project-img" src="https://cdn.discordapp.com/attachments/803041781801025566/861433844992049172/unknown.png" alt="Image of convnet page" />
+                    <img className="project-img" src="https://cdn.discordapp.com/attachments/803041781801025566/861433844992049172/unknown.png" alt="Convnet page" />
                 </div>
 
                 <div className="project-item">
@@ -62,7 +65,7 @@ function Projects() {
                     <p className="project-desc">Learned React in less than 24 hours for this submission. Hosted can be seen 
                                                 <a href="https://goals.nabilto.com/" target="_blank" rel="noreferrer"> <u>here.</u> </a>
                                                 Features routing, authentication, and a simple noSQL database thanks to Google Firebase. Made solo.</p>
-                    <img className="project-img" src="https://cdn.discordapp.com/attachments/803041781801025566/861437450236723200/unknown.png" alt="Screen shot of the main page." />
+                    <img className="project-img" src="https://cdn.discordapp.com/attachments/803041781801025566/861437450236723200/unknown.png" alt="Screenshot of the main page." />
                 </div>
 
                 <div className="project-item">
@@ -116,7 +119,7 @@ TxtType.prototype.tick = function () {
     this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
     var that = this;
-    var delta = 200 - Math.random() * 100;
+    var delta = 150 - Math.random() * 100;
 
     if (this.isDeleting) { delta /= 2; }
 

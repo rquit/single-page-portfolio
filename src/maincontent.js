@@ -48,7 +48,7 @@ function Projects() {
 
                 <div className="project-item">
                     <h2 className="project-title">
-                        <a href="https://github.com/rquit/Chat-Bot-Integrations/tree/main/Slack/NodeJS" target="_blank" rel="noreferrer">Slack Scheduling Bot</a>
+                        <a href="https://github.com/rquit/Chat-Bots/tree/main/Slack/NodeJS" target="_blank" rel="noreferrer">Slack Scheduling Bot</a>
                     </h2>
                     <p className="project-desc">Uses the Spurwing API to create appointments through Slack chat.</p>
                     <img className="project-img" src="https://raw.githubusercontent.com/rquit/Chat-Bot-Integrations/main/Slack/NodeJS/slackbot.gif" alt="GIF of the bot in action." />

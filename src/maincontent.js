@@ -15,7 +15,7 @@ function TypeEff() {
         <div className="init-body">
             <h1>
                 <a style={{fontSize: "2rem"}} href="#top" className="typewrite" data-period="2000" 
-                   data-type='[ "Hello!", "I am Nabil.", "I&apos;m a student at CUNY CCNY.",
+                   data-type='[ "Hello!", "I am Nabil Omi.", "I&apos;m a student at CUNY CCNY.",
                                 "Nothing else to say, here&apos;s some fun facts!",
                                 "Originally, oranges were a tangerine-pomelo hybrid, and were green.",
                                 "A cow-bison hybrid is called a &apos;beefalo&apos;.",

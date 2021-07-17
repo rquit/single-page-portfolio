@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { renderToString } from 'react-dom/server';
 
+renderToString(<App />);
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,8 +13,6 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-renderToString(<App />)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

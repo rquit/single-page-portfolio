@@ -48,6 +48,14 @@ function Projects() {
 
                 <div className="project-item">
                     <h2 className="project-title">
+                        <a href="https://github.com/rquit/AwoogaDex" target="_blank" rel="noreferrer">Manga Reader</a>
+                    </h2>
+                    <p className="project-desc">Manga reader consuming the MangaDex REST API. Thousands of manga and comics available.</p>
+                    <img className="project-img" src="https://cdn.discordapp.com/attachments/766493511847510019/866573332048117780/unknown.png" alt="Manga page" />
+                </div>
+
+                <div className="project-item">
+                    <h2 className="project-title">
                         <a href="https://github.com/rquit/Chat-Bots/tree/main/Slack/NodeJS" target="_blank" rel="noreferrer">Slack Scheduling Bot</a>
                     </h2>
                     <p className="project-desc">Uses the Spurwing API to create appointments through Slack chat.</p>

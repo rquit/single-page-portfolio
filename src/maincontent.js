@@ -51,7 +51,7 @@ function Projects() {
                         <a href="https://github.com/rquit/AwoogaDex" target="_blank" rel="noreferrer">Manga Reader</a>
                     </h2>
                     <p className="project-desc">Manga reader consuming the MangaDex REST API.</p>
-                    <img className="project-img" src="https://cdn.discordapp.com/attachments/766493511847510019/866573332048117780/unknown.png" alt="Manga page" />
+                    <img className="project-img" src="https://cdn.discordapp.com/attachments/850613008782196776/899778013095407676/unknown.png" alt="Manga page" />
                 </div>
 
                 <div className="project-item">
